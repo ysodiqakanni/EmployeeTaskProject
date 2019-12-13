@@ -54,7 +54,7 @@ namespace EmployeeTask.Tests
         [Fact]
         public void Update_Test()
         {
-            using (var context = GetSampleData(nameof(Add_Test)))
+            using (var context = GetSampleData(nameof(Update_Test)))
             {
                 // Arrange
                 var uow = new UnitOfWork(context); 
@@ -75,7 +75,7 @@ namespace EmployeeTask.Tests
         [Fact]
         public void Delete_Test()
         {
-            using (var context = GetSampleData(nameof(Add_Test)))
+            using (var context = GetSampleData(nameof(Delete_Test)))
             {
                 // Arrange
                 var uow = new UnitOfWork(context); 

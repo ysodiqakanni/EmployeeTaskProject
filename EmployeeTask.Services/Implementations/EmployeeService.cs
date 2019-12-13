@@ -40,7 +40,7 @@ namespace EmployeeTask.Services.Implementations
         public async Task<Employee> UpdateEmployee(Employee employee)
         {
             if (employee == null)
-                throw new Exception("Employee cannot be null");
+                throw new ArgumentNullException("Employee cannot be null");
 
             uow.Complete();
             return employee; 

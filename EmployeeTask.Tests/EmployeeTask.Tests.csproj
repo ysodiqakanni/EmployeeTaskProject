@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EmployeeTask.Data\EmployeeTask.Data.csproj" />
     <ProjectReference Include="..\EmployeeTask.DomainModels\EmployeeTask.DomainModels.csproj" />
+    <ProjectReference Include="..\EmployeeTask.Services\EmployeeTask.Services.csproj" />
   </ItemGroup>
 
 </Project>
