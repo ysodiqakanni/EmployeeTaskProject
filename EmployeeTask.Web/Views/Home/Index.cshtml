@@ -1,0 +1,29 @@
+﻿@model IEnumerable<EmployeeTask.DomainModels.Employee>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Employees</h1>
+    <h3 class="text-danger">@ViewBag.ErrorMsg</h3>
+    <div>
+        <table class="table table-bordered">
+            <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Hired Date</th>
+            </thead>
+            <tbody>
+                <tr>
+                    @foreach (var emp in Model)
+                    {
+                        <td>@emp.FirstName</td>
+                        <td>@emp.LastName</td>
+                        <td>@emp.HiredDate.ToString("D")</td>
+                    }
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  
+</div>

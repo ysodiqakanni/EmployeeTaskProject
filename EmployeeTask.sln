@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTask.Services", "Em
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTask.DomainModels", "EmployeeTask.DomainModels\EmployeeTask.DomainModels.csproj", "{51D5EE2A-02AB-4F5A-80C1-F04D6BA3DCD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeTask.Web", "EmployeeTask.Web\EmployeeTask.Web.csproj", "{5B2BD401-8475-4CA0-92F5-60388B54043A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{51D5EE2A-02AB-4F5A-80C1-F04D6BA3DCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51D5EE2A-02AB-4F5A-80C1-F04D6BA3DCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51D5EE2A-02AB-4F5A-80C1-F04D6BA3DCD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2BD401-8475-4CA0-92F5-60388B54043A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2BD401-8475-4CA0-92F5-60388B54043A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2BD401-8475-4CA0-92F5-60388B54043A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2BD401-8475-4CA0-92F5-60388B54043A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
